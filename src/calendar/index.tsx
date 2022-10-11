@@ -304,7 +304,7 @@ Calendar.propTypes = {
   showWeekNumbers: PropTypes.bool,
   style: PropTypes.oneOfType([PropTypes.object, PropTypes.array, PropTypes.number]),
   current: PropTypes.string,
-  initialDate: PropTypes.string,
+  initialDate: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   minDate: PropTypes.string,
   maxDate: PropTypes.string,
   markedDates: PropTypes.object,
